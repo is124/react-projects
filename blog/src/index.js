@@ -2,12 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import CommentDetail from './CommentDetail';
 import faker from 'faker';
+import ApprovalFile from './ApprovalFile';
 
 
 
 const App = () => {
     return (
             <div className = "ui container comments">
+                
+                <ApprovalFile/>
 
                 < CommentDetail 
                     author="Ron" 
