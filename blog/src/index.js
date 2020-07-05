@@ -10,7 +10,7 @@ const App = () => {
     return (
             <div className = "ui container comments">
                 
-                <ApprovalFile/>
+                <ApprovalFile>
 
                 < CommentDetail 
                     author="Ron" 
@@ -18,18 +18,27 @@ const App = () => {
                     comment="I love Writing"
                     image={faker.image.avatar()}/>
 
+                </ApprovalFile>
+
+                
+                <ApprovalFile>
+
                 < CommentDetail 
                     author="Harry P." 
                     timeAndDate="6:15 PM"
                     comment="I live in Hogwarts"
                     image={faker.image.avatar()}/>
 
+                </ApprovalFile>
+
+                <ApprovalFile>
 
                 < CommentDetail 
                     author="Hermoine" 
                     timeAndDate="9:01 AM"
                     comment="Wingardio-leviosa"
                     image={faker.image.avatar()}/>
+                </ApprovalFile>
                 
             </div>
     );
